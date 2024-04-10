@@ -1,0 +1,156 @@
+footer{
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
+
+footer h1{
+    text-align: center;
+    font-size: 1em;
+    font-weight:750;
+    margin-bottom: 20px;
+}
+
+.glide{
+    display: flex;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.glide__slides{
+display: flex;
+justify-content: center;
+align-items: center;
+   
+}
+.glide__slide{
+    display: inline-block;
+    background-color: rgb(235, 235, 235);
+    width: 180px  ;
+}
+.glide img {
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 150px;
+    height: 140px;
+    border-radius: 40px;
+  }
+  .glide__arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.glide__arrow{
+    border-radius: 100px;
+    border: solid 1px gray;
+    background-color: transparent;
+}
+
+footer .price{
+    text-align: center;
+    color: rgb(0, 81, 255);
+    margin-top: 50px;
+
+
+}
+
+footer .slide-description{
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    max-width: 200px;
+}
+
+.glide__bullets {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+.glide__bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #575757;
+    border-radius: 100%;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .glide__bullet--active {
+    background-color: #000;
+  }
+
+
+  .glide__track {
+    width: 100%;
+  }
+  
+  .glide__arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+  
+  .glide__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .glide__arrow--left {
+    left: 0;
+  }
+  
+  .glide__arrow--right {
+    right: 0;
+  }
+  
+  @media (max-width: 768px) {
+  .glide__arrow {
+      display: none;
+    }
+  }
+  .glide__track {
+    width: 100%;
+  }
+  
+  .glide__arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+  
+  .glide__arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .glide__arrow--left {
+    left: 0;
+  }
+  
+  .glide__arrow--right {
+    right: 0;
+  }
+  
+  @media (max-width: 768px) {
+  .glide__arrow {
+      display: none;
+    }
+  }
