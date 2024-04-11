@@ -4,8 +4,8 @@ const config = {
   gap: 10,
   breakpoints: {
     768: {
-      perView: 1,
-      gap: 20,
+      perView: 2,
+      gap: 10,
     },
   },
   bullets: true,
